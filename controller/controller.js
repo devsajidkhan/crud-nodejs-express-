@@ -17,7 +17,7 @@ try {
   result = await getRecordFromDatabase(User, createUser, body);
     
   res.status(200).json({
-    message: "User created successfully!",
+    message: "User account created successfully!",
     user: result,
   });
 
